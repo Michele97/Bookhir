@@ -1,0 +1,104 @@
+
+
+.img{
+ 
+    background-image:url("../assets/libreria_magica.png");
+    background-color:none;
+    width: 100vw;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 5px 5px 5px;
+  
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .show{
+    display: flex;
+  }
+
+  .flagIT {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bandiera_italiana_foto.svg/1280px-Bandiera_italiana_foto.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45px;
+    height: 25px;
+    border-radius: 15px;
+   
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  .flagEN {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45px;
+    height: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .column{
+    flex-direction: column;
+  }
+  .row{
+    flex-direction: row;
+  }
+  
+  .boxBook{
+    width:300px;
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 5px 5px 5px;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-right: 25px;
+    margin:25px;
+  }
+  .imgBook{
+    width: auto;
+    height: 200px;
+  }
+  .imgBook img{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+  }
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    
+  }
+  .navbar-brand img {
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .logo{
+    width:70px;
+    height:70px;
+    border-radius: 35px;
+    margin-left: 20px;
+  }
+  
+  
